@@ -1,7 +1,7 @@
 "use client";
 
-import MobileSidebar from "@/components/mobilesidebar";
-import Sidebar from "@/components/Sidebar";
+import MobileSidebar from "@/components/nav/Mobilesidebar";
+import Sidebar from "@/components/nav/Sidebar";
 import { api } from "@/convex/_generated/api";
 import { useMutation } from "convex/react";
 import { useEffect } from "react";
